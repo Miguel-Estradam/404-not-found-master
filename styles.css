@@ -1,9 +1,35 @@
-body{
-    font-family: Space Mono;
+/* variables*/
+:root {
+    --font: Space Mono;
+}
+
+
+/*Styles 404*/
+h1{
+font-family: var(--font);
 font-size: 64px;
 font-weight: 700;
 line-height: 95px;
 letter-spacing: -0.035em;
 text-align: left;
 
+}
+
+.container{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-404{
+    max-width:1400px;
+    width: 100%;
+}
+.description-404{
+    display: flex;
+}
+.description-404 img{
+    max-width: 540px;
+    width: 100%;
 }
